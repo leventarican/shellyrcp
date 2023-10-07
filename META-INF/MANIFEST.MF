@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Shellyrcp
+Bundle-SymbolicName: shellyrcp;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: shellyrcp.Activator
+Bundle-ClassPath: lib/json-20230618.jar,
+ .
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Automatic-Module-Name: shellyrcp
+Import-Package: javax.inject;version="[1.0.0,2.0.0)"
+Bundle-ActivationPolicy: lazy
